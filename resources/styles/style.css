@@ -1,0 +1,125 @@
+body {
+  background-color:black;
+
+}
+nav {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+nav img {
+  max-width: 150px;
+  margin: 3px;
+}
+nav li {
+ display: inline-block;
+ padding: 5px;
+font-family: times;
+font-size:20px;
+ margin: 0px 30px 0px 30px;
+}
+.container { <!-- might not even need this container to be flexible? too tired...figure out how to make background image from a local file path, it works with a known good URL -->
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+h4 {
+  font-size: 60px;
+  margin-top:20px;
+  margin-bottom:20px;
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-image: url(https://www.pictorem.com/collection/900_Printscapes_2101986HighRes.jpg);
+
+}
+footer{
+  display: flex;
+  justify-content: flex-end;
+}
+footer p {
+  color: orange;
+  margin: 25px 10px 0px 10px;
+}
+#first {
+  max-width: 400px;
+}
+.container p {
+  color: white;
+}
+.container h3 {
+  text-align: center;
+}
+#second {
+  max-width: 400px;
+}
+#third {
+  max-width: 400px;
+}
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+a:link {
+  color:orange;
+}
+a:hover {
+  color: orange;
+}
+.motorcycle {
+  max-width: 400px;
+}
+.gear {
+  max-width: 400px;
+}
+.outdoor {
+  max-width: 400px;
+}
+
+
+
+h1 {
+  text-align: center;
+  color: orange;
+}
+.container2 {
+  display: flex;
+  justify-content: space-around;
+}
+.container2 img {
+  max-width: 400px;
+}
+
+.container3{
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+.container3 img {
+  max-width: 400px;
+}
+.about {
+  color: orange;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 25px;
+
+}
+.about2 {
+  color: orange;
+  text-align: center;
+  font-family: helvetica;
+  font-size: 50px;
+}
+.abouthead {
+  color: orange;
+  text-align: center;
+  font-family: helvetica;
+}
+.error {
+  color:white;
+  font-size: 100px;
+  text-align: center;
+}
